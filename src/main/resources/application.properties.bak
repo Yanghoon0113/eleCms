@@ -1,0 +1,28 @@
+# Configuration Port
+server.port=8080
+
+# Configuration Thymeleaf
+spring.thymeleaf.prefix=classpath:/templates
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.cache=false
+
+# Configuration Devtools
+spring.devtools.livereload.enabled=true
+
+# Configuration MariaDb
+spring.datasource.driver
+-class
+-name=org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://localhost:3306/eleCms
+spring.datasource.username=eleCms
+spring.datasource.password=eleCms
+
+# Configuration mybatis
+# mybatis.mapper
+-locations=classpath:sqlmap/**/*.xml
+
+# mybatis.configuration.map
+-underscore
+-to
+-camel
+-case=true

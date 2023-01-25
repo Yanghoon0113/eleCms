@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@media( min-width: 500px ){
+	.contents .contentsBody .contentsBody-inner{width:500px;}
+}
+
+@media( max-width: 500px){
+	body{margin: 0px!important;}
+	.contents .contentsBody .contentsBody-inner{width:100%}
+}
